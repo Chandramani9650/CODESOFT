@@ -1,0 +1,224 @@
+@media only screen and (max-width: 1400px) {
+    .main-container{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1320px) {
+    .right-wrapper{
+        width: 35%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .right-wrapper{
+        width: 45%;
+    }
+    .main-nav li{
+        font-size: 1rem;
+    }
+    .big-about-us{
+        font-size: 100px;
+        margin-top: 20px;
+
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .right-wrapper{
+        width: 50%;
+    }
+    .main-nav{
+        display: none;
+    }
+    .main-logo{
+        width: 33%;
+        display: flex;
+        justify-content: center;
+    }
+    .header-right{
+        width: 33%;
+    }
+    .nav-button-main{
+        display: flex;
+        align-items: center;
+    }
+    .first-sec-left{
+        width: 100%;
+    }
+    .first-sec-right{
+        width: 35%;
+        height: 300px;
+    }
+    .first-section{
+        padding-top: 5rem;
+        padding-left: 1rem;
+        padding-bottom: 4rem;
+        background-size: cover;
+    }
+    .scond-sec-lef{
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .year-exper{
+        display: none;
+    }
+    .big-about-us{
+        font-size: 100px;
+        margin-top: 20px;
+        position: static;
+    }
+    .scond-sec-right{
+        width: 100%;
+        text-align: center;
+    }
+    .value-beyond{
+        text-align: center;
+    }
+    .second-sec-para{
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+        padding: 1rem ;
+    }
+    .ongoing-prj-item{
+        width: 50%;
+    }
+    /* .ongoing-sec{
+        padding-bottom: 3rem;
+    } */
+    .pillars-item{
+        width: 50%;
+    }
+    .big-pillars{
+        font-size: 100px;
+        line-height: 60px;
+    }
+    .small-pillar{
+        font-size: 40px;
+        margin-bottom: 2rem;
+    }
+    .tech-stack-item{
+        width: 33%;
+    }
+    .github-main img {
+        width:  40%;
+    }
+    .project-image img{
+        height: 100%;
+    }
+    .footer-right{
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .footer-right p{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .right-wrapper{
+        width: 65%;
+    }
+    .main-left-navbar{
+        width: 60%;
+    }
+    .first-sec-left{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        padding: 0;
+    }
+    .first-sec-right{
+        display: none;
+    }
+    .pagin-box-sp{
+        display: none;
+    }
+    .buil-exc{
+        font-size: 40px;
+    }
+    .innov-work{
+        font-size: 20px;
+    }
+    .big-about-us{
+        font-size: 80px;
+        line-height: 1;
+    }
+    .second-sec-para{
+        text-align: left;
+    }
+    .ongoing-prj-item{
+        width: 100%;
+    }
+    .ongoing-head{
+        font-size: 1.5rem;
+    }
+    .banner-section img{
+        width: 85%;
+    }
+    .banner-section{
+        padding-bottom: 3rem;
+    }
+    .pillars-item{
+        width: 50%;
+    }
+    .big-pillars{
+        font-size: 80px;
+    }
+    .small-pillar{
+        font-size: 40px;
+    }
+    .main-footer{
+        padding: 2rem;
+    }
+    .copyright-section p{
+        padding: 1rem;
+    }
+    .tech-stack-item{
+        width: 50%;
+    }
+    .github-main img {
+        width: 80%;
+    }
+    .typing-text{
+        min-height: 3.5rem;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .right-wrapper{
+        width: 100%;
+    }
+    .main-left-navbar{
+        width: 80%;
+    }
+    .buil-exc{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .watch-or-vid{
+        display: none;
+    }
+    .banner-section img{
+        width: 95%;
+    }
+    .pillars-item{
+        width: 100%;
+    }
+    .main-footer{
+        padding: 1.5rem;
+    }
+    .footer-center{
+        padding-left: 0.5rem;
+    }
+    .tech-stack-item{
+        width: 100%;
+    }
+    .github-main img {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+}
