@@ -85,18 +85,34 @@ type.go();
 
 
 // behivor smooth =========================================
-
-document.addEventListener('DOMContentLoaded', function () {
-    // Smooth scrolling when clicking on navigation links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
-            });
+document.addEventListener('DOMContentLoaded', (event) => {
+    document.querySelectorAll('.main-nav a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'auto'
         });
+      });
     });
-});
+  });
+  
 
+//   document.addEventListener('DOMContentLoaded', (event) => {
+//     document.querySelectorAll('.main-nav a[href^="#"]').forEach(anchor => {
+//       anchor.addEventListener('click', function (e) {
+//         e.preventDefault();
+  
+//         const targetElement = document.querySelector(this.getAttribute('href'));
+//         const headerOffset = 80; // Adjust this value to match the height of your fixed header
+//         const elementPosition = targetElement.getBoundingClientRect().top;
+//         const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+  
+//         window.scrollTo({
+//           top: offsetPosition,
+//           behavior: 'smooth'
+//         });
+//       });
+//     });
+//   });
+  
 
